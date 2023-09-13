@@ -6,17 +6,14 @@
 void print_alphabet_x10(void)
 {
 	char lowercase = 'a';
-	int i, j;
+	int i;
 
 	while (1 < 10)
 	{
 		for (i = 0; i < 10; i++)
 		{
-			for (j = 0; j < 26; j++)
-			{
-			_putchar(lowercase + j);
-			}
-		_putchar('\n');
+			_putchar(lowercase = 'a');
 		}
+		_putchar('\n');
 	}
 }
